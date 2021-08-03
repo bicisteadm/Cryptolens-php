@@ -1,0 +1,22 @@
+{
+  "name": "bicisteadm/cryptolens-php",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Adam Bičiště",
+      "email": "adam@freshost.cz"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.3",
+    "ext-json": "*",
+    "composer/ca-bundle": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "bicisteadm\\": "src/"
+    }
+  }
+}
